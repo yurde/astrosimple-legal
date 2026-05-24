@@ -21,106 +21,46 @@
   <main>
     <h1>Privacy Policy</h1>
     <p class="meta">
-      Effective date: TBD &middot; Publisher: xsparx &middot; Contact:
+      Effective date: May 24, 2026 &middot; Publisher: xsparx &middot; Contact:
       <a href="mailto:privacy@astrosimple.app">privacy@astrosimple.app</a>
     </p>
 
-    <div class="lang-switch">
-      <a href="#en" class="active">English</a>
-      <a href="#ru">Русский</a>
-    </div>
+    <h3>1. Data we collect</h3>
+    <ul>
+      <li><strong>Account data:</strong> name, email, and avatar provided by your sign-in method (Apple, Google, X, or Facebook) via Clerk.</li>
+      <li><strong>Birth data you enter:</strong> name, date of birth, time of birth, country, city, gender. Stored on our servers to compute astrological charts.</li>
+      <li><strong>Generated content:</strong> charts, interpretations, and chat messages. May be cached on our servers.</li>
+      <li><strong>Subscription status:</strong> your current plan and entitlements, provided by Apple In-App Purchase via RevenueCat.</li>
+      <li><strong>Error reports:</strong> crash data and diagnostics sent to Sentry when an error occurs.</li>
+    </ul>
+    <p>We do <strong>not</strong> collect advertising identifiers, precise location, contacts, photos, or microphone data.</p>
 
-    <section id="en">
-      <h2>English</h2>
+    <h3>2. How we use your data</h3>
+    <p>We use your data to provide the service: compute charts, generate interpretations, manage your account and subscription, and diagnose errors. We do not sell your data.</p>
 
-      <h3>1. Data we collect</h3>
-      <p>When you use Astrosimple, we collect and store the following:</p>
-      <ul>
-        <li><strong>Account data (Clerk):</strong> Apple ID, email, display name, avatar URL. Provided by Sign in with Apple via Clerk.</li>
-        <li><strong>Birth data you enter:</strong> name, date of birth, time of birth (or "unknown"), country, city, gender (optional). Stored on our servers to compute astrological charts.</li>
-        <li><strong>Generated content:</strong> natal charts, transits, interpretations, chat history. Generated content may be cached on our servers for performance.</li>
-        <li><strong>Subscription state:</strong> subscription tier (free or premium) and entitlement status. Provided by Apple In-App Purchase via RevenueCat.</li>
-        <li><strong>Operational counters:</strong> weekly chat message count, daily content generation count, last-edit timestamp, AI consent timestamp. Used to enforce plan limits.</li>
-        <li><strong>Crash and error reports:</strong> message text, stack trace, component stack, platform, timestamp. Sent only when an unhandled error occurs.</li>
-      </ul>
-      <p>We do <strong>not</strong> collect device identifiers for tracking, advertising IDs, location, contacts, photos, or microphone data.</p>
+    <h3>3. Third-party services</h3>
+    <ul>
+      <li><strong>Clerk</strong> — authentication.</li>
+      <li><strong>Apple</strong> — sign-in and In-App Purchase.</li>
+      <li><strong>RevenueCat</strong> — subscription management.</li>
+      <li><strong>Sentry</strong> — error monitoring.</li>
+      <li><strong>Anthropic, Google, OpenAI</strong> — AI-generated content. Only anonymized chart data is sent to these providers; personal identifiers are never shared.</li>
+    </ul>
 
-      <h3>2. Third-party processors</h3>
-      <ul>
-        <li><strong>Clerk</strong> — authentication and session management.</li>
-        <li><strong>Apple</strong> — Sign in with Apple, App Store In-App Purchase.</li>
-        <li><strong>RevenueCat</strong> — subscription receipt validation and entitlement.</li>
-        <li><strong>Google (Gemini API)</strong> — generating astrological interpretations.</li>
-        <li><strong>OpenAI (GPT API)</strong> — fallback for interpretations when Gemini is unavailable.</li>
-        <li><strong>Hosting provider</strong> — TBD (Railway / Render / Fly).</li>
-      </ul>
-      <p>When AI consent is granted in Settings, computed chart data is sent to Google and OpenAI to generate interpretations. <strong>Raw birth date, time, coordinates, email, and user IDs are never sent to AI providers.</strong> Only the computed astrological positions and the question text are sent.</p>
+    <h3>4. Data retention and deletion</h3>
+    <p>You can delete your account from Settings at any time. Deletion permanently removes your account, stored profiles, and associated data.</p>
 
-      <h3>3. AI consent</h3>
-      <p>You can grant or revoke AI consent at any time in Settings &rarr; Privacy. When consent is revoked, AI features are disabled and no further data is sent to AI providers.</p>
+    <h3>5. Children</h3>
+    <p>Astrosimple is rated 12+. We do not knowingly collect data from children under 13. Contact <a href="mailto:privacy@astrosimple.app">privacy@astrosimple.app</a> if you believe a child has used the app.</p>
 
-      <h3>4. Data retention and deletion</h3>
-      <p>You can delete your account from Settings &rarr; Delete account at any time. When you delete your account, your account record, all stored persons, and your operational counters are permanently removed. Cached chart computations may persist briefly under non-identifying keys but cannot be linked back to your account.</p>
+    <h3>6. International transfers</h3>
+    <p>Your data may be processed in the United States by our hosting and service providers.</p>
 
-      <h3>5. Children</h3>
-      <p>Astrosimple is rated 12+. We do not knowingly collect data from children under 13. If you believe a child has used the app, contact us at <a href="mailto:privacy@astrosimple.app">privacy@astrosimple.app</a> and we will delete the account.</p>
+    <h3>7. Your rights</h3>
+    <p>Depending on your jurisdiction, you may have the right to access, correct, or delete your personal data. Contact <a href="mailto:privacy@astrosimple.app">privacy@astrosimple.app</a>.</p>
 
-      <h3>6. International transfers</h3>
-      <p>Our hosting and AI providers operate primarily in the United States. By using Astrosimple, you consent to your data being transferred to and processed in the United States.</p>
-
-      <h3>7. Your rights</h3>
-      <p>Depending on your jurisdiction, you may have the right to access, correct, port, or delete your personal data. To exercise these rights, contact <a href="mailto:privacy@astrosimple.app">privacy@astrosimple.app</a>.</p>
-
-      <h3>8. Changes</h3>
-      <p>We may update this policy. Material changes will be communicated in-app or by email at least 14 days before they take effect.</p>
-    </section>
-
-    <hr />
-
-    <section id="ru">
-      <h2>Русский</h2>
-
-      <h3>1. Какие данные мы собираем</h3>
-      <p>При использовании Astrosimple мы собираем и храним:</p>
-      <ul>
-        <li><strong>Данные аккаунта (Clerk):</strong> Apple ID, email, имя, аватар. Передаются Sign in with Apple через Clerk.</li>
-        <li><strong>Данные о рождении, которые вы вводите:</strong> имя, дата рождения, время рождения (или «не знаю»), страна, город, пол (опционально). Хранятся на наших серверах для расчёта астрологических карт.</li>
-        <li><strong>Сгенерированный контент:</strong> натальные карты, транзиты, интерпретации, история чата. Может кэшироваться на серверах для ускорения.</li>
-        <li><strong>Статус подписки:</strong> тариф (free или premium) и статус активации. Передаётся через Apple In-App Purchase и RevenueCat.</li>
-        <li><strong>Операционные счётчики:</strong> количество сообщений в чате за неделю, генераций контента за день, последняя дата редактирования, дата согласия на AI. Используются для соблюдения лимитов плана.</li>
-        <li><strong>Отчёты об ошибках:</strong> текст ошибки, стек, платформа, временная метка. Отправляются только при необработанных ошибках.</li>
-      </ul>
-      <p>Мы <strong>не</strong> собираем идентификаторы устройства для трекинга, рекламные ID, геолокацию, контакты, фото или данные микрофона.</p>
-
-      <h3>2. Сторонние сервисы</h3>
-      <ul>
-        <li><strong>Clerk</strong> — аутентификация.</li>
-        <li><strong>Apple</strong> — Sign in with Apple, In-App Purchase.</li>
-        <li><strong>RevenueCat</strong> — валидация чеков и управление подпиской.</li>
-        <li><strong>Google (Gemini API)</strong> — генерация астрологических интерпретаций.</li>
-        <li><strong>OpenAI (GPT API)</strong> — резервный провайдер интерпретаций.</li>
-        <li><strong>Хостинг</strong> — TBD.</li>
-      </ul>
-      <p>При включенном согласии на AI в Настройках, вычисленные данные карты отправляются Google и OpenAI. <strong>Дата, время и координаты рождения, email и идентификаторы пользователя не отправляются AI-провайдерам.</strong> Передаются только вычисленные астрологические позиции и текст вопроса.</p>
-
-      <h3>3. Согласие на AI</h3>
-      <p>Вы можете дать или отозвать согласие в любое время через Настройки &rarr; Приватность. При отзыве AI-функции отключаются, никакие данные больше не отправляются AI-провайдерам.</p>
-
-      <h3>4. Хранение и удаление</h3>
-      <p>Вы можете удалить аккаунт через Настройки &rarr; Удалить аккаунт. При удалении ваш профиль, добавленные люди и операционные счётчики удаляются безвозвратно. Кэшированные расчёты карт могут сохраняться кратковременно по неперсонализирующим ключам, но не могут быть связаны с вашим аккаунтом.</p>
-
-      <h3>5. Дети</h3>
-      <p>Astrosimple имеет возрастной рейтинг 12+. Мы сознательно не собираем данные от детей младше 13 лет. Если вы считаете, что ребёнок пользовался приложением, напишите на <a href="mailto:privacy@astrosimple.app">privacy@astrosimple.app</a> — мы удалим аккаунт.</p>
-
-      <h3>6. Международная передача данных</h3>
-      <p>Наш хостинг и AI-провайдеры работают преимущественно в США. Используя Astrosimple, вы соглашаетесь с передачей данных в США для обработки.</p>
-
-      <h3>7. Ваши права</h3>
-      <p>В зависимости от юрисдикции у вас есть право на доступ, исправление, перенос и удаление персональных данных. Для реализации напишите на <a href="mailto:privacy@astrosimple.app">privacy@astrosimple.app</a>.</p>
-
-      <h3>8. Изменения</h3>
-      <p>Мы можем обновлять эту политику. Существенные изменения будут озвучены в приложении или по email не менее чем за 14 дней.</p>
-    </section>
+    <h3>8. Changes</h3>
+    <p>We may update this policy. Material changes will be communicated in-app at least 14 days before they take effect.</p>
   </main>
 
   <footer class="site">
