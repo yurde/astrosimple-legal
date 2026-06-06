@@ -135,30 +135,6 @@ code {
   margin-bottom: 24px;
 }
 
-.lang-switch {
-  display: inline-flex;
-  gap: 8px;
-  margin: 16px 0 32px;
-  padding: 4px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--card);
-  font-size: 14px;
-}
-
-.lang-switch a {
-  padding: 6px 12px;
-  text-decoration: none;
-  color: var(--fg-muted);
-  border-radius: 6px;
-}
-
-.lang-switch a.active {
-  background: var(--bg);
-  color: var(--fg);
-  font-weight: 500;
-}
-
 .hero {
   padding: 64px 0 32px;
 }

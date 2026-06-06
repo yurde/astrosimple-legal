@@ -5,9 +5,9 @@ Static site for `https://astrosimple.app`. Hosted on Cloudflare Pages.
 ## Pages
 
 - `/` — landing
-- `/privacy/` — privacy policy (EN + RU)
-- `/terms/` — terms of service (EN + RU)
-- `/support/` — support page (EN + RU)
+- `/privacy/` — privacy policy
+- `/terms/` — terms of service
+- `/support/` — support page
 
 ## Source of truth
 
